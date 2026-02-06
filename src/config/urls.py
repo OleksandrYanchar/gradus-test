@@ -24,6 +24,7 @@ schema_view = get_schema_view(
 urlpatterns = [
     path(os.getenv("ADMIN_URL"), admin.site.urls),
     path("", include("health.urls")),
+    path("api/notifications/", include("notifications.urls")),
 ]
 
 if settings.DEBUG:

@@ -17,6 +17,7 @@ THIRD_PARTY = [
 LOCAL_APPS = [
     "users",
     "health",
+    "notifications",
 ]
 
 DEBUG_APPS = []

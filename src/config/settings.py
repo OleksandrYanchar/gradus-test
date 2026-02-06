@@ -26,6 +26,7 @@ config_files = [
     "auth.py",
     "boilerplate.py",
     "database.py",
+    "email.py",
     "templates.py",
     "internationalization.py",
     "logging.py",
